@@ -1,0 +1,33 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.grid-board {
+    display:grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);
+    margin: 40px;
+}
+
+.block {
+    border: 1px dotted red;
+
+}
+
+#button-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+}
