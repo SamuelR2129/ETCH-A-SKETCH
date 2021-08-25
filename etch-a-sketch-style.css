@@ -11,16 +11,27 @@ main {
     flex-direction: column;
 }
 
+:root {
+    --grid-size:16;
+  }
+  
+
 .grid-board {
+    height:400px;
+    width:400px;
     display:grid;
-    grid-template-columns: repeat(16, 25px);
-    grid-template-rows: repeat(16, 25px);
+    grid-template-columns: repeat(var(--grid-size), 1fr);
+    grid-template-rows: repeat(var(--grid-size), 1fr);
     margin: 40px;
+    background: white !important;
+    overflow:auto;
 }
 
 .block {
     border: 1px dotted red;
-
+    display:inline-block;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 #button-container {
