@@ -5,3 +5,5 @@ Skills include:
 - DOM Manipulation
 - CSS
 - HTML
+
+[Live Demo](https://htmlpreview.github.io/?https://github.com/SamuelR2129/ETCH-A-SKETCH/blob/main/etch-a-sketch-index.html)
